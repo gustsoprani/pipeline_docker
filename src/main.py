@@ -9,7 +9,7 @@ def dividir(a, b):
         raise ZeroDivisionError("Não é possível dividir por zero.")
     return a / b
 
-if __name__ == "__main__":
+if __name__ == "__main__": # pragma: no cover
     print("EXECUTANDO APLICAÇÃO CONTEINERIZADA")
     print(f" - Teste de soma (2 + 3): {somar(2, 3)}")
     print(f" - Teste de multiplicação (2 * 3): {multiplicar(2, 3)}")

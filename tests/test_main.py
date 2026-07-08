@@ -1,3 +1,4 @@
+import pytest
 from src.main import somar, multiplicar, dividir
 
 def test_soma():
