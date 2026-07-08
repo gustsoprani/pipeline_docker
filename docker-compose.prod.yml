@@ -1,0 +1,4 @@
+services:
+  web:
+    image: ghcr.io/gustsoprani/pipeline_docker:latest
+    restart: unless-stopped
